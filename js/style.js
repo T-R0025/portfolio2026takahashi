@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "ネットバンクアプリ",
             description: "1年生後期の最終課題として作成したアプリです、pythonとmySQLを使い作成しました、データベースを使い作成するのが自分のなかで始めての事だったのでとても苦労しました、最終的に課題の必須要件を満たすためだけのものになってしまいユーザビリティはなく見た目もかなりひどいものになってしまい自分の中ではいつかちゃんとしたものを作りたいものです。",
             images: [
-                "img/bank1.png",
-                "img/bank2.png",
-                "img/bank3.png"
+                "./img/bank1.png",
+                "./img/bank2.png",
+                "./img/bank3.png"
             ],
             currentImage: 0
         },
@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "ポケモンのようなゲーム",
             description: "1年生の時のpython授業の中間課題で作成をしました、技に合わせた音付けり、画像をつけるのに苦労しました、初めてしっかりと時間をかけて作ったアプリなので結構思い出深いです。",
             images: [
-                "img/pokemon1.png",
-                "img/pokemon2.png"
+                "./img/pokemon1.png",
+                "./img/pokemon2.png"
             ],
             currentImage: 0
         },
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "闘拳",
             description: "2年生の前期で4人で作ったアプリで2D格闘オンラインゲームです。自分は主に画面のデザインを作成したりゲームの内部処理を担当しました。チームメンバーがかなり優秀だったので自分はあまり活躍しませんでしたが任された仕事はしたと思うし、チームメンバーと意思疎通を取りながら開発するのはいい経験になったと思います。",
             images: [
-                "img/touken.png",
-                "img/touken2.png"
+                "./img/touken.png",
+                "./img/touken2.png"
             ],
             currentImage: 0
         }
