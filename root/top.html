@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私のポートフォリオ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="hed">
+        <h1>Takahashi_Ryunosuke</h1>
+        <h1>Portfolio</h1>
+
+        <ul class="nav-links">
+            <li><a href="#myprofile">自己紹介</a></li>
+            <li><a href="#hobby">趣味</a></li>
+            <li><a href="#apps">作成アプリ</a></li>
+            <li><a href="#certificates">資格</a></li>
+            <li><a href="#study">学習分野</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 id="myprofile">自己紹介</h2>
+            <p>2006年1月生まれ、岩手県出身。専門学生をしています。
+            プログラミングは主にjavaとpythonを使って行っています。
+            趣味はゲームで、最近では友達とleage of legendsというゲームを良くしています。
+            </p>
+        </section>
+        <section>
+            <h2 id="hobby">趣味</h2>
+            <p>自分の趣味の中でも一番好きなものだといえます、小学生のころからずっと好きなものであり
+            自分の人生の中で切っても切り離せないものになっているといえます、
+            小学生のころはWIIやDSを家族や友人としており高校生になってからは
+            パソコンでできるゲームやスマホゲームなどをするようになりました。
+            パソコンのゲームをしたいからというのが理由でパソコンを買うためにバイトをし始めたので、
+            自分の人生に大きく影響を与えているものだと思います。</p>
+        </section>
+        <section>
+            <h2 id="apps">作成アプリ</h2>
+
+            <div class="slider">
+                <button id="prev">◀</button>
+
+                <img id="slider-image" src="img/bank1.png" alt="アプリ">
+
+                <button id="next">▶</button>
+            </div>
+
+            <div class="app-details">
+                <div class="detail active">
+                    <h3 id="app-title">ネットバンキングアプリ</h3>
+                    <p id="app-description">1年生後期の最終課題として作成したアプリです、
+                        pythonとmySQLを使い作成しました、
+                        データベースを使い作成するのが自分のなかで始めての事だったのでとても苦労しました、
+                        最終的に課題の必須要件を満たすためだけのものになってしまいユーザビリティは
+                        なく見た目もかなりひどいものになってしまい自分の中ではいつかちゃんとしたものを作りたいものです。</p>
+                </div>
+
+                <div class="detail">
+                    <h3 id="app-title">ポケモンのようなゲーム</h3>
+                    <p id="app-description">1年生の時のpython授業の中間課題で作成をしました、
+                        技に合わせた音付けり、画像をつけるのに苦労しました、
+                        初めてしっかりと時間をかけて作ったアプリなので結構思い出深いです。</p>
+                </div>
+
+                <div class="detail">
+                    <h3 id="app-title">闘拳</h3>
+                    <p id="app-description">2年生の前期で4人で作ったアプリで2D格闘オンラインゲームです。
+                        自分は主に画面のデザインを作成したりゲームの内部処理を担当しました。
+                        チームメンバーがかなり優秀だったので自分はあまり活躍しませんでしたが任された仕事はしたと思うし、
+                        チームメンバーと意思疎通を取りながら開発するのはいい経験になったと思います。</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="certificates">取得済みの資格一覧</h2>
+            <ul>
+                <li>保有資格: 基本情報技術者試験-1年秋に取得</li>
+                <li>javaプログラム能力認定試験3級-2年夏に取得</li>
+                <li>pythonプログラミング能力認定試験-1年冬に取得</li>
+                <li>AI検定-2年冬に取得</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="study">学習分野</h2>
+            <ul>
+                <li>java:学校で二年生になってから学び始めたプログラム言語です。まだ基礎的な構文などしか使えません。</li>
+                <li>Python:学校で一年生の時に学んだプログラム言語です。基礎構文は使えます。</li>
+                <li>html/css:学校で一年生の時に学んだ言語です。</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>r.takahashi.sys24@morijyobi.ac.jp</p>
+    </footer>
+
+    <script src="js/style.js"></script>
+</body>
+</html>
